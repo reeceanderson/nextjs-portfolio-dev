@@ -2,8 +2,8 @@ import './footer.css';
 
 const Footer = () => {
     return(
-        <div className="footer flex justify-center w-screen">
-            <h4>© work by reece anderson</h4>
+        <div className="flex justify-center w-screen p-4 bg-gray-500">
+            <h4 className='text-white'>© work by reece anderson</h4>
         </div>
     );
 };
